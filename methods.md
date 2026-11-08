@@ -1,4 +1,3 @@
 # Cohort assignment
 
-Group users by the calendar month of their first signup. For example,
-users who first signed up in January 2026 belong to the January 2026 cohort.
+Convert each user’s first signup timestamp to UTC, then assign the user to the cohort for that calendar month. For example, a signup at 11:30 p.m. Eastern time on January 31, 2026 is already February 1 in UTC, so it belongs to the February 2026 cohort.
